@@ -1,0 +1,115 @@
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background: #e21b1b;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 55px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="phone"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M14 7l-4 4-4-4"></path></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px top 50%;
+    background-size: 20px;
+    padding-right: 30px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.check {
+    float: right;
+    margin-top: 4.5px;
+}
+
+.rgpd {
+    float: right;
+    margin-top: 4.5px;
+}
+
+.btn {
+    background-color: #e21b1b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #e21b1b;
+    color: #fff;
+    padding: 26px;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.logo{
+    float: left;
+    position: absolute;
+    margin-left: -440px;
+}

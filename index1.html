@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - RencontreApp</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <img class="logo"  src="./pngtree-salon-logo-png-image_4004444-removebg-preview.png" width="6%">
+        <h1>GEETIK</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Page de Bienvenu</a></li>
+                <li><a href="index2.html">Condition d'utilisation</a></li>
+                <li><a href="./index1.html">Formulaire d'nscription</a></li>
+                <li><a href="./connexion.html">Connexion</a></li>
+                <li><a href="./prenium.html">Prenium</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form-container">
+            <h2>Inscrivez-vous !</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="profile-pic">Photo de profil :</label>
+                    <input type="file" id="profile-pic" name="profile-pic">
+                </div>
+                <div class="form-group">
+                    <label for="username">Prenom :</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <tr>
+                    <td align="right" width="80%">Genre :</td>
+                      <td width="41%"><select name="matiere">
+                        <option value="1">Homme</option>
+                        <option value="2">Femme</option>
+                        <option value="3">Autre</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <br>
+                  <tr>
+                    <td align="right">Date de naissance:</td>
+                    <td><input type="date" name="naiss"></td>
+                  </tr>
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Mot de passe :</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirmez le mot de passe :</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Quel est votre lieu de résidence ? :</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="username">Département :</label>
+                    <input type="text" id="username" ame="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="postal-code">Code postal :</label>
+                    <input type="text" id="postal-code" name="postal-code" required>
+                </div>                
+                <div class="form-group">
+                    <label for="téléphone">Téléphone :</label>
+                    <input type="phone" id="phone" name="phone" required>
+                </div>
+                <tr>
+                    <td align="right" width="80%">Quelle est votre états civile :</td>
+                      <td width="41%"><select name="matiere">
+                        <option value="1">Célibataire</option>
+                        <option value="2">Divorcé(e)</option>
+                        <option value="3">Veuf(ve)</option>
+                        <option value="3">Autre</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <br>
+                  <div class="form-group">
+                    <label for="bio">Description de moi :</label>
+                    <textarea id="bio" name="bio" rows="5" cols="68"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="search-preferences">Préférences de recherche :</label>
+                    <input type="text" id="search-preferences" name="search-preferences">
+                </div>
+                <div class="form-group">
+                    <label for="interests">Centres d'intérêt :</label>
+                    <input type="text" id="interests" name="interests">
+                </div>
+                <div class="form-group">
+                    <label for="profession">Profession :</label>
+                    <input type="text" id="profession" name="profession">
+                </div>
+                <div class="form-group">
+                    <label for="spoken-languages">Langues parlées :</label>
+                    <input type="text" id="spoken-languages" name="spoken-languages">
+                </div>
+                <div class="form-group">
+                    <label for="religion">Religion :</label>
+                    <input type="text" id="religion" name="religion">
+                </div>
+                <div class="form-group">
+                    <label for="astrological-sign">Signe astrologique :</label>
+                    <input type="text" id="astrological-sign" name="astrological-sign">
+                </div>
+                <div class="form-group">
+                    <label for="social-media">Comptes de réseaux sociaux :</label>
+                    <input type="text" id="social-media" name="social-media">
+                </div>
+                <div class="form-group">
+                    <input class="check" type="checkbox" id="age-confirm" name="age-confirm" required>
+                    <label for="age-confirm">Je confirme avoir 18 ans ou plus :</label>
+                </div>
+                <div class="form-group">
+                    <input class="rgpd" type="checkbox" id="gdpr-consent" name="gdpr-consent" required>
+                    <label for="gdpr-consent">Je consens à ce que mes données personnelles soient collectées et traitées conformément à la <a href="vp.html">politique de confidentialité</a>.</label>
+                </div>
+                <button type="submit" class="btn">S'inscrire</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-space"></div>
+        <p>&copy; 2024 RencontreApp - Tous droits réservés</p>
+    </footer>   
+</body>
+</html>
